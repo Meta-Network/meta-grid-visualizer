@@ -55,7 +55,7 @@ async function main() {
       .delay(delta * i)
       .to({ alpha: 1 }, 1000)
       .easing(Easing.Quadratic.Out)
-      .onUpdate(() => counter.text = (i + 1).toString())
+      .onStart(() => counter.text = (i + 1).toString())
       .start();
   }
 }
