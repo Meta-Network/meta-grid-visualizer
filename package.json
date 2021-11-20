@@ -1,0 +1,20 @@
+{
+  "name": "meta-grid-visualizer",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/offscreencanvas": "^2019.6.4",
+    "@vercel/node": "^1.12.1",
+    "typescript": "^4.5.2",
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "axios": "^0.24.0",
+    "pixi.js": "^6.2.0"
+  }
+}
