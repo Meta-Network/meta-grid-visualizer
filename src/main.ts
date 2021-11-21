@@ -6,7 +6,11 @@ import type { GridDto } from "./types";
 import { F0, F1, F2, F3 } from "./constants";
 
 async function main() {
-  const app = new PIXI.Application({ resizeTo: window, antialias: true });
+  const app = new PIXI.Application({
+    backgroundColor: 0x1A1147,
+    resizeTo: window,
+    antialias: true,
+  });
 
   document.body.appendChild(app.view);
 
